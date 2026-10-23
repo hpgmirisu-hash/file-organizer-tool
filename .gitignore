@@ -1,0 +1,19 @@
+# PyInstaller 打包產生的暫存檔與資料夾
+build/
+dist/
+*.spec
+
+# 測試用的資料夾（避免把測試檔案上傳上去）
+test_workspace/
+
+# Python 快取檔與編譯檔
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 開發環境與作業系統產生的雜檔
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
